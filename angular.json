@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-             "baseHref": "/your-repo-name/",
+             "baseHref": "/angular20/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
