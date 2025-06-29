@@ -28,7 +28,7 @@ jobs:
         run: npm run build -- --configuration production
 
       - name: Add 404 fallback
-        run: cp dist/angular20/index.html dist/angular20/404.html
+        run: cp dist/angular20/browser/index.html dist/angular20/browser/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
